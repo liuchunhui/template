@@ -3,9 +3,10 @@ import indexDispatcher from '../dispatcher/indexdispatcher';
 let indexActions = {
 
 	searchItem (obj) {
+		console.log('数据到达action');
 		indexDispatcher.dispatch({
-		    actionType: 'SEARCH_ITEM',
-		    text: obj
+		    actionType: 'INPUT',
+		    text: obj.text
 		});
 	}
 };

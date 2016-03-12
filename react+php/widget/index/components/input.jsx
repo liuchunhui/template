@@ -1,5 +1,10 @@
 import React from 'react';
 
+let indexAction = require('../actions/indexaction');
+
+/**
+ * 输入框组件
+ */
 let Input = React.createClass({
     getInitialState () {
         return ({
@@ -7,8 +12,8 @@ let Input = React.createClass({
         })
     },
     onChange (ev) {
-        let tag = ev.target.value;
-        console.log(tag);
+        let value = ev.target.value;
+        indexAction.searchItem({actionType: 'INPUT', text: value});
     },
     render () {
         let me = this;

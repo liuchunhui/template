@@ -5,9 +5,9 @@ let indexDispatcher = new Dispatcher();
 
 indexDispatcher.register(function (action) {
     switch(action.actionType) {
-    case 'SEARCH_ITEM':
-        //indexStore.addNewItemHandler(action.text);
-        //indexStore.emitChange();
+    case 'INPUT':
+        console.log('数据到达dispatcher');
+        indexStore.getInputText(action);
         break;
     default:
       // todo
