@@ -1,0 +1,18 @@
+.pagination {
+	list-style: none;
+}
+.pagination .pagination__page {
+	list-style: none;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.pagination .pagination__page--selected {
+	background: #2185D0;
+	color: #fff;
+}

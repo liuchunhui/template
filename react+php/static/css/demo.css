@@ -1,0 +1,65 @@
+._header {
+    width: 100%;
+    height: 60px;
+    background-color: #375F90;
+    color: #ffffff;
+}
+._footer {
+    width: 100%;
+    height: 100px;
+    background-color: #375F90;
+    color: #ffffff;
+}
+._container {
+    width: 100%;
+    min-height: 488px;
+}
+._container .nav {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    border-bottom: 1px solid #CCC;
+}
+._container .nav .menus {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+._container .nav .menus .menu-task-list {
+    width: 160px;
+    height: 40px;
+    margin: 30px 0px 0px 0px;
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+}
+._container .nav .menus .choiced {
+    text-shadow: 0px 0px 30px #8EC7E4, 0px 0px 30px #8EC7E4,0px 0px 30px #8EC7E4;
+}
+._container .nav .menus .menu-task-deploy {
+    width: 160px;
+    height: 40px;
+    margin: 30px 0px 0px 160px;
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+}
+._container .contain .search {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+}
+._container .contain .search .main {
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+._container .contain .search .main label {
+    margin-right: 10px;
+}
+._container .contain .list {
+    padding: 10px;
+    width: 100%;
+
+}
+
