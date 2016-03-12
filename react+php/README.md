@@ -3,8 +3,9 @@
 -------
 基于FIS3-Smarty的React+ES6 开发Demo。
 
--------
-####FIS3 插件
+-------------------------------
+#### FIS3 插件
+
 
 ```
 npm install npm3 -g 
@@ -29,6 +30,7 @@ npm3 i -g  fis3-smarty
 
 ```
 
+
 ####Start
 
 ```
@@ -36,6 +38,7 @@ fis3 server start --type smarty  //开启smarty服务
 
 fis3 release -cw   // release 
 ```
+
 
 #### 查看实例
 ```
