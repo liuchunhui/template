@@ -21,8 +21,8 @@
         </header>
         {%block name="content"%}
         {%/block%}
-        <footer class="_footer">
-            <h3 style="margin: 35px; position: absolute;">...</h3>
-        </footer>
+        <!--<footer class="_footer">-->
+            <!--<h3 style="margin: 35px; position: absolute;">...</h3>-->
+        <!--</footer>-->
 	{%/body%}
 {%/html%}
