@@ -1,4 +1,4 @@
-do平台重构
+demo
 ===========================
 基于FIS3-Smarty的Vue + VueX + es6 + less + bootstrap
 
