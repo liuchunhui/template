@@ -1,2 +1,5 @@
 .idea
 vue-demo/node_modules
+vue-webpack-template/.idea
+vue-webpack-template/node_modules
+vue-webpack-template/dist
